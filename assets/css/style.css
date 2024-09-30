@@ -1,18 +1,10 @@
+.color-fade-text{
+    color: rgba(0, 0, 0, .5);
+}
 .container-fluid{
     padding-left: 0;
     padding-right: 0;
 }
-.navbar{
-    margin-left: 0;
-    margin-right: 0;
-    border: 0;
-    width: 100%;
-    background-color: rgba(0, 0, 0, .2);
-    z-index: 1;
-}
 .navbar > p{
     padding-top: 15px;
-}
-#prevent-message{
-    line-height: -1em;
 }
