@@ -25,4 +25,6 @@ Colour palette:
 
 Typography:
 
+Images:
+
 

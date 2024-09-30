@@ -8,3 +8,16 @@
 .navbar > p{
     padding-top: 15px;
 }
+.jumbo-header{
+    margin-bottom: 30px;
+}
+.vertical-center {
+    min-height: 80%;
+    min-height: 80vh; 
+    display: flex;
+    align-items: center;
+}
+
+.cta-container{
+    
+}
