@@ -1,9 +1,21 @@
 /* general style */
-body{
+body {
     background-color: #fafafa;
     font-family: Arial, Helvetica, sans-serif;
 }
-.lead{
+
+.bg {
+    /* The image used */
+    background-image: url("/assets/images/pexels-jeff-sof-209653-10082071.jpg");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lead {
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -11,38 +23,37 @@ body{
 /* font classes */
 
 /* colour classes */
-.btn-action{
+.btn-action {
     background-color: tomato;
     color: bisque;
 }
-.btn-action:hover{
+
+.btn-action:hover {
     background-color: bisque;
     color: tomato;
 }
-/* header style */
-.header-container{
 
-}
-.navbar{
+/* header style */
+.header-container {}
+
+.navbar {
     background-color: transparent;
 
 }
 
-.color-fade-text{
+.color-fade-text {
     padding-top: 15px;
     color: tomato;
 }
 
-.btn-nav{
+.btn-nav {
     margin-left: 10px;
 }
 
 /* jumbotron style */
-.jumbo-container{
+.jumbo-container {}
 
-}
-
-.jumbotron{
+.jumbotron {
     height: 50vh;
     height: 50%;
     background-color: transparent;
@@ -50,6 +61,4 @@ body{
 
 /* footer style */
 
-.footer-container{
-
-}
+.footer-container {}
