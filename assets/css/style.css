@@ -1,14 +1,16 @@
 h1, h2, h3, h4, h5, h6{
     font-family: Arial, Helvetica, sans-serif;
+    color: #fafafa;
 }
 body{
-    background-color: darkslategray;
+    background-color: darkslategrey;
+    width: 100%;
 }
 .uppercase{
     text-transform: uppercase;
 }
 .color-fade-text{
-    color: rgba(0, 0, 0, .5);
+    color: #fafafa;
 }
 .container-fluid{
     padding-left: 0;
@@ -21,8 +23,23 @@ body{
     margin-bottom: 30px;
 }
 .vertical-center {
-    min-height: 80%;
-    min-height: 80vh; 
+    min-height: 40%;
+    min-height: 40vh; 
     display: flex;
     align-items: center;
+}
+.jumbotron{
+    background: none;
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .5);
+    margin: 0;
+    width: 100%;
+    border-bottom: 1px solid #fafafa;
+}
+.btn--ctn{
+    background-color: purple;
+    color: #fafafa;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #fafafa;
 }
