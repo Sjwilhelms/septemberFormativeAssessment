@@ -15,7 +15,7 @@ As a site user I can access information on the Prevent strategy
 
 (what it is and who it applies to laid out side by side)
 
-As a user I can access information on Risk factors
+As a user I can access information on risk factors
 
 (the signs of radicalisation laid out in a list alongside a sensitivity warning)
 
@@ -41,10 +41,12 @@ WIREFRAME:
 
 ![wireframe](assets/images/readme/wireframe.png)
 
-
-WIP:
+WIP header and main:
 
 ![unstyled bootstrap and html](assets/images/readme/wip-header-and-main.png)
+
+WIP main and footer:
+
 ![unstyled bootstrap and html](assets/images/readme/wip-main-and-footer.png)
 
 UX DESIGN
