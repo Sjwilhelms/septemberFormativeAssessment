@@ -13,8 +13,18 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+    
 }
-
+.darken-image{
+    filter: 80%;
+}
+/* .opaque-overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, .5);
+    top: 0;
+    left: 0;
+} */
 .lead {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -38,6 +48,7 @@ body {
 
 .navbar {
     background-color: transparent;
+    z-index: 1;
 
 }
 
@@ -57,8 +68,8 @@ body {
     height: 50vh;
     height: 50%;
     background-color: transparent;
+    color: bisque;
 }
 
 /* footer style */
 
-.footer-container {}
