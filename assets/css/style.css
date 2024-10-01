@@ -1,15 +1,42 @@
-.color-fade-text{
-    padding-top: 15px;
+/* general style */
+body{
+    background-color: #fafafa;
 }
-.btn-nav{
-    margin-left: 10px;
-}
+
 /* font classes */
 
 /* colour classes */
 
 /* header style */
+.header-container{
+
+}
+.navbar{
+    background-color: transparent;
+
+}
+
+.color-fade-text{
+    padding-top: 15px;
+}
+
+.btn-nav{
+    margin-left: 10px;
+}
 
 /* jumbotron style */
+.jumbo-container{
+
+}
+
+.jumbotron{
+    height: 50vh;
+    height: 50%;
+    background-color: transparent;
+}
 
 /* footer style */
+
+.footer-container{
+
+}
