@@ -42,10 +42,10 @@ WIREFRAME:
 ![wireframe](assets/images/readme/wireframe.png)
 
 
-
 WIP:
 
-
+![unstyled bootstrap and html](assets/images/readme/wip-header-and-main.png)
+![unstyled bootstrap and html](assets/images/readme/wip-main-and-footer.png)
 
 UX DESIGN
 
