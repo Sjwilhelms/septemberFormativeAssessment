@@ -33,9 +33,19 @@ As a site user I can follow a link straight to PREVENT reporting
 
 (links provided in menu and in footer)
 
-As a JR developer I would like feedback from my users
+As a jr developer I would like feedback from my users
 
 (feedback form linked in footer)
+
+WIREFRAME:
+
+![wireframe](assets/images/readme/wireframe.png)
+
+
+
+WIP:
+
+
 
 UX DESIGN
 
@@ -43,6 +53,6 @@ Colour palette:
 
 Typography:
 
-Images:
+Images: 
 
 
