@@ -26,18 +26,22 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item d-sm-none"><a class="nav-link" href="/login" target="_blank">Take the
+                        <li class="nav-item d-sm-none"><a class="nav-link"
+                                href="https://www.gov.uk/guidance/prevent-duty-training" target="_blank">Take the
                                 training</a>
                         </li>
-                        <li class="nav-item d-sm-none"><a class="nav-link" href="/login" target="_blank">Make a
+                        <li class="nav-item d-sm-none"><a class="nav-link"
+                                href="https://report-extremism.education.gov.uk/" target="_blank">Make a
                                 referral</a>
                         </li>
                     </ul>
                     <div class="d-none d-md-block">
-                        <a href="" class="btn btn--ctn">Take the training</a>
+                        <a href="https://www.gov.uk/guidance/prevent-duty-training" target="_blank" class="btn btn-primary btn-large btn-nav">Take the
+                            training</a>
                     </div>
                     <div class="d-none d-md-block">
-                        <a href="" class="btn btn--ctn">Make a referral</a>
+                        <a href="https://report-extremism.education.gov.uk/" target="_blank" class="btn btn-primary btn-large btn-nav">Make a
+                            referral</a>
                     </div>
                 </div>
             </nav>
@@ -46,39 +50,43 @@
     <!-- main section -->
     <!-- jumbotron one -->
     <section>
-        <div class="jumbotron vertical-center">
-            <div class="row">
-                <div class="col-12">
-                    <h3 class="display-4 d-none d-md-block jumbo-header text-center uppercase">Introduction</h3>
-                </div>
-                <div class="col-10 col-md-4 offset-1">
-                    <p class="lead">PREVENT is one part of the government's overall counter-terrorism strategy: CONTEST.
-                        The aim of Prevent is to:</p>
-                    <ul>
-                        <li>tackle the ideological causes of terrorism</li>
-                        <li>intervene early to support people susceptible to radicalisation</li>
-                        <li>enable people who have already engaged in terrorism to disengage and rehabilitate</li>
-                    </ul>
-                </div>
-                <div class="col-10 col-md-4 offset-1">
-                    <p class="lead">Prevent duty training is for people working in sectors covered by the Prevent duty,
-                        such as:</p>
-                    <ul>
-                        <li>education</li>
-                        <li>health</li>
-                        <li>local authorities</li>
-                        <li>police</li>
-                        <li>criminal justice agencies (prisons, probation, youth justice)</li>
-                    </ul>
+        <div class="container-fluid">
+            <div class="jumbotron vertical-center">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="display-4 d-none d-md-block jumbo-header text-center">Introduction</h3>
+                    </div>
+                    <div class="col-10 col-md-4 offset-1">
+                        <p class="lead">PREVENT is one part of the government's overall counter-terrorism strategy:
+                            CONTEST.
+                            The aim of Prevent is to:</p>
+                        <ul>
+                            <li>tackle the ideological causes of terrorism</li>
+                            <li>intervene early to support people susceptible to radicalisation</li>
+                            <li>enable people who have already engaged in terrorism to disengage and rehabilitate</li>
+                        </ul>
+                    </div>
+                    <div class="col-10 col-md-4 offset-1">
+                        <p class="lead">Prevent duty training is for people working in sectors covered by the Prevent
+                            duty,
+                            such as:</p>
+                        <ul>
+                            <li>education</li>
+                            <li>health</li>
+                            <li>local authorities</li>
+                            <li>police</li>
+                            <li>criminal justice agencies (prisons, probation, youth justice)</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-        <section>
+        <div class="container-fluid">
             <!-- jumbotron two -->
             <div class="jumbotron vertical-center">
                 <div class="row">
                     <div class="col-12">
-                        <h3 class="display-4 d-none d-md-block jumbo-header text-center uppercase">Risk factors</h3>
+                        <h3 class="display-4 d-none d-md-block jumbo-header text-center">Risk factors</h3>
                     </div>
                     <div class="col-10 col-md-4 offset-1">
                         <p class="lead">Early signs of susceptibility to radicalisation could be:</p>
@@ -99,32 +107,81 @@
                             Many of these signs could also be related to other issues, and the presence of one or more
                             doesn't necessarily indicate radicalization.<br><br>
                             If you're in the UK and have concerns about radicalisation,
-
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-
+        </div>
+        <!-- modal for form -->
+        <div class="container-fluid">
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with
+                                        anyone else.</small>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputPassword1">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <div class="form-group form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <!-- footer section -->
     <footer>
-        <div class="container-fluid">
+        <div class="container-fluid text-center">
+            <!-- external links -->
             <div class="row">
-                <div class="col-4 offset-2">
+                <div class="col-4">
                     <p class="lead">
-                        <a class="btn btn-primary btn-lg btn--ctn" href="#" role="button">Take the training</a>
+                        <a class="btn btn-primary btn-lg" href="https://www.gov.uk/guidance/prevent-duty-training"
+                            target="_blank" role="button">Take
+                            the training</a>
                     </p>
                 </div>
-                <div class="col-4 offset-1">
+                <div class="col-4">
                     <p class="lead">
-                        <a class="btn btn-primary btn-lg btn--ctn" href="#" role="button">Make a referral</a>
+                        <a class="btn btn-primary btn-lg" href="https://report-extremism.education.gov.uk/"
+                            target="_blank" role="button">Make a referral</a>
+                    </p>
+                </div>
+                <!-- modal launch -->
+                <div class="col-4">
+                    <p class="lead">
+                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal"
+                            data-target="#exampleModal">Feedback Form</button>
+                        </button>
                     </p>
                 </div>
             </div>
         </div>
     </footer>
-
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>

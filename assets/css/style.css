@@ -1,45 +1,15 @@
-h1, h2, h3, h4, h5, h6{
-    font-family: Arial, Helvetica, sans-serif;
-    color: #fafafa;
-}
-body{
-    background-color: darkslategrey;
-    width: 100%;
-}
-.uppercase{
-    text-transform: uppercase;
-}
 .color-fade-text{
-    color: #fafafa;
-}
-.container-fluid{
-    padding-left: 0;
-    padding-right: 0;
-}
-.navbar > p{
     padding-top: 15px;
 }
-.jumbo-header{
-    margin-bottom: 30px;
+.btn-nav{
+    margin-left: 10px;
 }
-.vertical-center {
-    min-height: 40%;
-    min-height: 40vh; 
-    display: flex;
-    align-items: center;
-}
-.jumbotron{
-    background: none;
-    color: #fafafa;
-    background-color: rgba(0, 0, 0, .5);
-    margin: 0;
-    width: 100%;
-    border-bottom: 1px solid #fafafa;
-}
-.btn--ctn{
-    background-color: purple;
-    color: #fafafa;
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid #fafafa;
-}
+/* font classes */
+
+/* colour classes */
+
+/* header style */
+
+/* jumbotron style */
+
+/* footer style */
