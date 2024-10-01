@@ -9,6 +9,7 @@ body {
     background-image: url("../images/pexels-jeff-sof-209653-10082071.jpg");
     /* Full height */
     height: 100%;
+    
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
@@ -16,15 +17,17 @@ body {
     position: relative;
     
 }
-.darken-image{
-    filter: 80%;
-}
-/* .opaque-overlay{
-    position: absolute;
+.opaque-overlay{
     background-color: rgba(0, 0, 0, .5);
-    top: 0;
-    left: 0;
-} */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+    height: 100%;
+    width: 100%;
+}
+
 .lead {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -44,7 +47,7 @@ body {
 }
 
 /* header style */
-.header-container {}
+.container{}
 
 .navbar {
     background-color: transparent;
