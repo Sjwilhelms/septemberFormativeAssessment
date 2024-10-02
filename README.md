@@ -9,7 +9,11 @@ official sources. Links will be provided to the relevant web pages.
 
 The expected USER is somebody who works in a sector covered by the Prevent duty. 
 
-USER STORIES
+Table of contents 
+
+*[USER STORIES](USER-STORIES)
+
+### USER STORIES
 
 As a site user I can access information on the Prevent strategy
 
@@ -37,19 +41,19 @@ As a jr developer I would like feedback from my users
 
 (feedback form linked in footer)
 
-WIREFRAME:
+### WIREFRAME
 
 ![wireframe](assets/images/readme/wireframe.png)
 
-WIP header and main:
+### WIP header and main
 
 ![unstyled bootstrap and html](assets/images/readme/wip-header-and-main.png)
 
-WIP main and footer:
+### WIP main and footer
 
 ![unstyled bootstrap and html](assets/images/readme/wip-main-and-footer.png)
 
-UX DESIGN
+### UX DESIGN
 
 Colour palette: 
 
