@@ -57,8 +57,32 @@ As a jr developer I would like feedback from my users
 
 Colour palette: 
 
-Typography:
+#fafafa
+tomato
+bisque
+aqua
 
-Images: 
+Typography: arial, helvetica
 
+Images: credited in page
 
+### VALIDATION
+
+First Attempt:
+
+CSS passed validation with no errors
+
+HTML did not pass validation. Early in the project I encountered an issue where my background image was not covering the whole page.
+Resolved by adding a class to the body (<body class="bg">). This image was too bright, and so I intended to darken with an overlay.
+
+Having seen such a thing done before I tried to emulate it but ALAS it would not cover the image. Resolved with some tweaked CSS attributes
+and some divs left unclosed:
+
+<div class="bg">
+<div class="overlay">
+
+I will return to this problem
+
+### FURTHER TESTING
+
+I have accessed the deployed product on Firefox and Chrome on PC and iPhone. It responds as expected.
