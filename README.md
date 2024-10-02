@@ -11,7 +11,16 @@ The expected USER is somebody who works in a sector covered by the Prevent duty.
 
 Table of contents 
 
-*[USER STORIES](USER-STORIES)
+[EXTERNAL RESOURCES](#USER-STORIES)
+[WIREFRAME](#WIREFRAME)
+[WIP-HEADER-AND-MAIN](#WIP-HEADER-AND-MAIN)
+[WIP-MAIN-AND-FOOTER](#WIP-MAIN-AND-FOOTER)
+[UX-DESIGN](#UX-DESIGN)
+[DEPLOYED-HEADER-AND-MAIN](#DEPLOYED-HEADER-AND-MAIN)
+[DEPLOYED-MAIN-AND-FOOTER](#DEPLOYED-MAIN-AND-FOOTER)
+[DEPLOYED-FEEDBACK](#DEPLOYED-FEEDBACK)
+[VALIDATION](#VALIDATION)
+[EXTERNAL-RESOURCES](#EXTERNAL-RESOURCES)
 
 ### USER STORIES
 
@@ -45,11 +54,11 @@ As a jr developer I would like feedback from my users
 
 ![wireframe](assets/images/readme/wireframe.png)
 
-### WIP header and main
+### WIP HEADER AND MAIN
 
 ![unstyled bootstrap and html](assets/images/readme/wip-header-and-main.png)
 
-### WIP main and footer
+### WIP MAIN AND FOOTER
 
 ![unstyled bootstrap and html](assets/images/readme/wip-main-and-footer.png)
 
