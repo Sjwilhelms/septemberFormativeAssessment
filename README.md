@@ -138,5 +138,8 @@ I have accessed the deployed product on Firefox and Chrome on PC and iPhone. It 
 
 The website does contain information about prevent. It is clearly headed and legible. There are working links. 
 
-The feedback from is unstyled, and leads to nowhere. I had considered implementing some JS to make it work but eh maybe next time.
+Accessing government resources: there is an array of pdf's and documents on the subject. I want my website to be clean and have adjudged the 
+call to action buttons to be sufficient. The NSPCC represents a "third way" I hope.
+
+The feedback form is unstyled, and leads to nowhere. I had considered implementing some JS to make it work but eh maybe next time.
 
