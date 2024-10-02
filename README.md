@@ -57,7 +57,12 @@ As a jr developer I would like feedback from my users
 
 Colour palette: 
 
+hex: 
+
 #fafafa
+
+presets:
+
 tomato
 bisque
 aqua
@@ -65,6 +70,18 @@ aqua
 Typography: arial, helvetica
 
 Images: credited in page
+
+### DEPLOYED HEADER AND MAIN
+
+![deployed web page](/assets/images/readme/deplopyed-header-and-main.png)
+
+### DEPLOYED MAIN AND FOOTER
+
+![deployed web page](/assets/images/readme/deplopyed-main-and-footer.png)
+
+### DEPLOYED FEEDBACK
+
+![deployed feedback form](/assets/images/readme/deployed-feedback.png)
 
 ### VALIDATION
 
@@ -83,6 +100,15 @@ and some divs left unclosed:
 
 I will return to this problem
 
+### EXTERNAL RESOURCES
+
+I used Claude AI to summarise the Prevent guidance from the UK government's website.
+
+I had used w3 schools to create a full page background image (https://www.w3schools.com/howto/howto_css_full_page.asp)
+
+Although my code still looks a lot like that on w3, it has gone through a lot of iterations and my trials with unvalidated
+<div> elements have left me with a sense of authorship 🤣.
+
 ### FURTHER TESTING
 
-I have accessed the deployed product on Firefox and Chrome on PC and iPhone. It responds as expected.
+I have accessed the deployed product on Firefox and Chrome on PC and iPhone. It responds as hoped. I have changed my screen orientation on mobile.
