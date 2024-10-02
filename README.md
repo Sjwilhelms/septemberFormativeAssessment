@@ -31,6 +31,8 @@ Table of contents
 
 [EXTERNAL RESOURCES](#EXTERNAL-RESOURCES)
 
+[USER STORIES ACHIEVED???](#USER-STORIES-ACHIEVED???)
+
 ### USER STORIES
 
 As a site user I can access information on the Prevent strategy
@@ -116,7 +118,8 @@ and some divs left unclosed:
 <div class="bg">
 <div class="overlay">
 
-I will return to this problem
+I will return to this problem. It has been suggested that I return to <body class="bg"> and apply a :before psuedo class. I will make an attempt 
+before the deadline. 
 
 ### EXTERNAL RESOURCES
 
@@ -130,3 +133,10 @@ Although my code still looks a lot like that on w3, it has gone through a lot of
 ### FURTHER TESTING
 
 I have accessed the deployed product on Firefox and Chrome on PC and iPhone. It responds as hoped. I have changed my screen orientation on mobile.
+
+### USER STORIES ACHIEVED???
+
+The website does contain information about prevent. It is clearly headed and legible. There are working links. 
+
+The feedback from is unstyled, and leads to nowhere. I had considered implementing some JS to make it work but eh maybe next time.
+
