@@ -99,7 +99,7 @@ Images: credited in page
 
 ### DEPLOYED MAIN AND FOOTER
 
-![deployed web page](/assets/images/readme/deplopyed-main-and-footer.png)
+![deployed web page](/assets/images/readme/deployed-main-and-footer.png)
 
 ### DEPLOYED FEEDBACK
 
