@@ -151,3 +151,5 @@ call to action buttons to be sufficient. The NSPCC represents a "third way" I ho
 
 The feedback form is unstyled, and leads to nowhere. I had considered implementing some JS to make it work but eh maybe next time.
 
+The colour contrast is fine but the form is too bright. The nav-brand could be bigger. 
+
