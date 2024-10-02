@@ -125,7 +125,8 @@ before the deadline.
 
 ### VALIDATION 2
 
-
+I used a pseudo class for the bg class, and was able to successfully deploy the background image and overlay as a class inside the opening body tag. 
+html and css validation passed.
 
 ### EXTERNAL RESOURCES
 
