@@ -1,17 +1,29 @@
 /* general style */
-body{
+body {
     background-color: #fafafa;
     font-family: Arial, Helvetica, sans-serif;
 }
-.bg{
+
+.bg {
     background-image: url("../images/pexels-jeff-sof-209653-10082071.jpg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, .5);
+    }
 }
-.opaque-overlay{
+
+.opaque-overlay {
     background-color: rgba(0, 0, 0, .5);
     background-position: center;
     background-repeat: no-repeat;
@@ -20,35 +32,43 @@ body{
     height: 100%;
     width: 100%;
 }
-.lead{
+
+.lead {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 /* font classes */
 /* buttons */
-.btn-action{
+.btn-action {
     background-color: tomato;
     color: bisque;
 }
-.btn-action:hover{
+
+.btn-action:hover {
     background-color: bisque;
     color: tomato;
 }
+
 /* header style */
-.navbar{
+.navbar {
     background-color: transparent;
     z-index: 1;
 }
-.navbar .navbar-brand{
+
+.navbar .navbar-brand {
     color: #fafafa;
 }
-.color-fade-text{
+
+.color-fade-text {
     padding-top: 15px;
     color: tomato;
 }
-.btn-nav{
+
+.btn-nav {
     margin-left: 10px;
 }
+
 /* jumbotron style */
 .jumbotron {
     height: 50vh;
@@ -56,16 +76,19 @@ body{
     background-color: transparent;
     color: bisque;
 }
+
 /* footer style */
-.photo-credit{
+.photo-credit {
     margin-top: 50px;
     padding-bottom: 50px;
     color: aqua;
 }
-h6 > a{
+
+h6>a {
     text-decoration: none;
     color: aqua;
 }
-h6 > a:hover{
+
+h6>a:hover {
     color: blanchedalmond;
 }

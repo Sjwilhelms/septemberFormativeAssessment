@@ -29,6 +29,8 @@ Table of contents
 
 [VALIDATION](#VALIDATION)
 
+[VALIDATION 2](#VALIDATION-2)
+
 [EXTERNAL RESOURCES](#EXTERNAL-RESOURCES)
 
 [USER STORIES ACHIEVED???](#USER-STORIES-ACHIEVED???)
@@ -121,6 +123,10 @@ and some divs left unclosed:
 I will return to this problem. It has been suggested that I return to <body class="bg"> and apply a :before psuedo class. I will make an attempt 
 before the deadline. 
 
+### VALIDATION 2
+
+
+
 ### EXTERNAL RESOURCES
 
 I used Claude AI to summarise the Prevent guidance from the UK government's website.
@@ -129,6 +135,10 @@ I had used w3 schools to create a full page background image (https://www.w3scho
 
 Although my code still looks a lot like that on w3, it has gone through a lot of iterations and my trials with unvalidated
 <div> elements have left me with a sense of authorship that it's tough to let go of.
+
+I used stack overflow (https://stackoverflow.com/questions/34702477/add-a-dark-overlay-to-background-image/34702639#34702639) to 
+help the opaque overlay and background image pass validatoin. Their solution included a linear colour gradiant with opacity as a 
+separate attribute. I deleted the opacity and background image attribute, and combined them into background-color: rgba(0,0,0,.5).
 
 ### FURTHER TESTING
 
