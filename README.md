@@ -128,7 +128,7 @@ I used Claude AI to summarise the Prevent guidance from the UK government's webs
 I had used w3 schools to create a full page background image (https://www.w3schools.com/howto/howto_css_full_page.asp)
 
 Although my code still looks a lot like that on w3, it has gone through a lot of iterations and my trials with unvalidated
-<div> elements have left me with a sense of authorship 🤣.
+<div> elements have left me with a sense of authorship that it's tough to let go of.
 
 ### FURTHER TESTING
 
